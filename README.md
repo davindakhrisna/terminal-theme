@@ -71,12 +71,33 @@ Please make sure Iosevka is installed on your system for the intended terminal a
 
 ---
 
-## Credits & Acknowledgements
+## Credits & Attribution
 
-Monolith Terminal is a continuation and evolution of the original retro terminal theme by **[Diana](https://github.com/madebydia)**. Special thanks and full credit to Diana for the original foundation, retro concept, and inspiration.
+**Monolith Terminal** is a maintained fork and modernized evolution of **[Diana's Obsidian Retro Terminal Theme](https://github.com/madebydia/obsidian-retro-terminal-theme)**.
+
+### Original Work
+- **Original Creator**: [Diana (@madebydia)](https://github.com/madebydia)
+- **Original Repository**: [obsidian-retro-terminal-theme](https://github.com/madebydia/obsidian-retro-terminal-theme)
+- **Original Concept**: Retro terminal aesthetic, monospaced typography, and CRT-inspired design system
+
+### Changes in This Fork
+This maintained version includes:
+- Expansion to **6 color scheme variants** (OLED, Kingsley, Cyberpunk, Arasaka, Matrix, Cobalt)
+- Enhanced **Style Settings integration** for easy theme customization
+- Refined color palettes optimized for **OLED displays** and readability
+- Improved **callout styling** and code block presentation
+- Updated for **latest Obsidian API** compatibility
+- Active maintenance and community support
+
+Full credit and gratitude go to Diana for the original foundation, retro concept, and design inspiration that made this evolution possible.
 
 ---
 
 ## License
 
-[MIT License](LICENSE) © 2026 kryisnn
+This project is licensed under the **[MIT License](LICENSE)**.
+
+**Original work** © Diana  
+**Modifications & additions** © 2026 davindakhrisna
+
+Both the original and modified versions are freely available under the same MIT license terms. See [LICENSE](LICENSE) for details.
