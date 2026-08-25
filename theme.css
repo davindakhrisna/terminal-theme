@@ -85,6 +85,19 @@ settings:
   --tab-curve: 0px;
   --clickable-icon-radius: 0px;
   --icon-stroke: 1.5px;
+
+  /* Global Divider & Wireframe settings */
+  --divider-color: var(--background-modifier-border);
+  --divider-color-hover: var(--text-accent);
+  --divider-width: 1px;
+  --divider-width-hover: 1px;
+  --tab-outline-color: var(--background-modifier-border);
+  --tab-divider-color: var(--background-modifier-border);
+  --titlebar-border-color: var(--background-modifier-border);
+
+  /* Loading & Progress */
+  --loading-spinner-color: var(--text-accent);
+  --spinner-color: var(--text-accent);
 }
 
 /* ============================================
@@ -98,16 +111,16 @@ body:not([class*="scheme-"]) {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #222222;
-  --background-modifier-border-hover: #3d3d3d;
+  --background-modifier-border: #383838;
+  --background-modifier-border-hover: #666666;
   --background-modifier-border-focus: #ffffff;
   --background-modifier-form-field: #080808;
   --background-modifier-form-field-highlighted: #141414;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.95);
   --background-modifier-success: #151515;
-  --background-modifier-error: #222222;
-  --background-modifier-error-rgb: 34, 34, 34;
-  --background-modifier-error-hover: #2e2e2e;
+  --background-modifier-error: #383838;
+  --background-modifier-error-rgb: 56, 56, 56;
+  --background-modifier-error-hover: #484848;
   --background-modifier-cover: rgba(0, 0, 0, 0.92);
 
   /* Monochrome text palette */
@@ -166,7 +179,7 @@ body:not([class*="scheme-"]) {
   /* Code */
   --code-normal: #ffffff;
   --code-background: #121212;
-  --code-border: #282828;
+  --code-border: #383838;
   --code-comment: #777777;
   --code-function: #ffffff;
   --code-keyword: #cccccc;
@@ -181,13 +194,15 @@ body:not([class*="scheme-"]) {
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.35);
 
   /* Dividers & Nav */
-  --hr-color: #222222;
+  --divider-color: #383838;
+  --divider-color-hover: #ffffff;
+  --hr-color: #383838;
   --nav-item-color: #aaaaaa;
   --nav-item-color-hover: #ffffff;
   --nav-item-color-active: #ffffff;
   --nav-item-background-hover: rgba(255, 255, 255, 0.06);
   --nav-item-background-active: rgba(255, 255, 255, 0.12);
-  --nav-indentation-guide-color: #222222;
+  --nav-indentation-guide-color: #2e2e2e;
 
   /* Tabs */
   --titlebar-background: #000000;
@@ -202,7 +217,7 @@ body:not([class*="scheme-"]) {
   --table-header-background: #101010;
   --table-header-background-hover: #1a1a1a;
   --table-row-background-hover: rgba(255, 255, 255, 0.04);
-  --table-border-color: #222222;
+  --table-border-color: #383838;
 
   /* Checkbox & Modal */
   --checkbox-color: #ffffff;
@@ -220,16 +235,16 @@ body.scheme-kingsley {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #2a2008;
-  --background-modifier-border-hover: #4a3810;
+  --background-modifier-border: #523b0a;
+  --background-modifier-border-hover: #886214;
   --background-modifier-border-focus: #ffbb33;
   --background-modifier-form-field: #080808;
   --background-modifier-form-field-highlighted: #141414;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.9);
   --background-modifier-success: #142414;
-  --background-modifier-error: #2a1212;
-  --background-modifier-error-rgb: 42, 18, 18;
-  --background-modifier-error-hover: #3a1a1a;
+  --background-modifier-error: #3a1a1a;
+  --background-modifier-error-rgb: 58, 26, 26;
+  --background-modifier-error-hover: #4a2222;
   --background-modifier-cover: rgba(0, 0, 0, 0.85);
 
   /* Amber phosphor text */
@@ -290,7 +305,7 @@ body.scheme-kingsley {
   /* Code */
   --code-normal: #ffcc44;
   --code-background: #131313;
-  --code-border: #332810;
+  --code-border: #523b0a;
   --code-comment: #9e8455;
   --code-function: #5ccfe6;
   --code-keyword: #ff6b8b;
@@ -304,8 +319,10 @@ body.scheme-kingsley {
   --scrollbar-thumb-bg: rgba(255, 187, 51, 0.15);
   --scrollbar-active-thumb-bg: rgba(255, 187, 51, 0.3);
 
-  /* Dividers */
-  --hr-color: #2a2008;
+  /* Dividers & Nav */
+  --divider-color: #523b0a;
+  --divider-color-hover: #ffbb33;
+  --hr-color: #523b0a;
 
   /* Nav / file explorer */
   --nav-item-color: #cc8800;
@@ -313,7 +330,7 @@ body.scheme-kingsley {
   --nav-item-color-active: #ffbb33;
   --nav-item-background-hover: rgba(255, 187, 51, 0.06);
   --nav-item-background-active: rgba(255, 187, 51, 0.12);
-  --nav-indentation-guide-color: #2a2008;
+  --nav-indentation-guide-color: #3a2806;
 
   /* Title bar / tabs */
   --titlebar-background: #000000;
@@ -330,7 +347,7 @@ body.scheme-kingsley {
   --table-header-background: #0c0c0c;
   --table-header-background-hover: #161616;
   --table-row-background-hover: rgba(255, 187, 51, 0.04);
-  --table-border-color: #2a2008;
+  --table-border-color: #523b0a;
 
   /* Checkbox */
   --checkbox-color: #ffbb33;
@@ -350,16 +367,16 @@ body.scheme-cyberpunk {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #302d04;
-  --background-modifier-border-hover: #544f08;
+  --background-modifier-border: #524c06;
+  --background-modifier-border-hover: #00f0ff;
   --background-modifier-border-focus: #fcee0a;
   --background-modifier-form-field: #0a0a0d;
   --background-modifier-form-field-highlighted: #14141a;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.95);
   --background-modifier-success: #0d2822;
-  --background-modifier-error: #330814;
-  --background-modifier-error-rgb: 51, 8, 20;
-  --background-modifier-error-hover: #470c1e;
+  --background-modifier-error: #450c1c;
+  --background-modifier-error-rgb: 69, 12, 28;
+  --background-modifier-error-hover: #5a1226;
   --background-modifier-cover: rgba(0, 0, 0, 0.88);
 
   /* Cyberpunk text palette */
@@ -418,7 +435,7 @@ body.scheme-cyberpunk {
   /* Code */
   --code-normal: #00f0ff;
   --code-background: #111116;
-  --code-border: #302d04;
+  --code-border: #524c06;
   --code-comment: #7a7403;
   --code-function: #fcee0a;
   --code-keyword: #ff0055;
@@ -433,13 +450,15 @@ body.scheme-cyberpunk {
   --scrollbar-active-thumb-bg: rgba(0, 240, 255, 0.35);
 
   /* Dividers & Nav */
-  --hr-color: #302d04;
+  --divider-color: #524c06;
+  --divider-color-hover: #00f0ff;
+  --hr-color: #524c06;
   --nav-item-color: #c4ba05;
   --nav-item-color-hover: #00f0ff;
   --nav-item-color-active: #fcee0a;
   --nav-item-background-hover: rgba(0, 240, 255, 0.06);
   --nav-item-background-active: rgba(252, 238, 10, 0.1);
-  --nav-indentation-guide-color: #302d04;
+  --nav-indentation-guide-color: #3d3905;
 
   /* Tabs */
   --titlebar-background: #000000;
@@ -454,7 +473,7 @@ body.scheme-cyberpunk {
   --table-header-background: #0d0d12;
   --table-header-background-hover: #15151c;
   --table-row-background-hover: rgba(0, 240, 255, 0.04);
-  --table-border-color: #302d04;
+  --table-border-color: #524c06;
 
   /* Checkbox & Modal */
   --checkbox-color: #00f0ff;
@@ -472,16 +491,16 @@ body.scheme-arasaka {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #30070d;
-  --background-modifier-border-hover: #520c17;
+  --background-modifier-border: #5c0f1b;
+  --background-modifier-border-hover: #ff003c;
   --background-modifier-border-focus: #ff003c;
   --background-modifier-form-field: #0a0808;
   --background-modifier-form-field-highlighted: #171112;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.95);
   --background-modifier-success: #0d2613;
-  --background-modifier-error: #3a0810;
-  --background-modifier-error-rgb: 58, 8, 16;
-  --background-modifier-error-hover: #4d0a15;
+  --background-modifier-error: #4d0a15;
+  --background-modifier-error-rgb: 77, 10, 21;
+  --background-modifier-error-hover: #610d1c;
   --background-modifier-cover: rgba(0, 0, 0, 0.9);
 
   /* Arasaka text palette */
@@ -540,7 +559,7 @@ body.scheme-arasaka {
   /* Code */
   --code-normal: #ffffff;
   --code-background: #110d0e;
-  --code-border: #3a0910;
+  --code-border: #5c0f1b;
   --code-comment: #804048;
   --code-function: #ff2a5e;
   --code-keyword: #ff003c;
@@ -555,13 +574,15 @@ body.scheme-arasaka {
   --scrollbar-active-thumb-bg: rgba(255, 0, 60, 0.35);
 
   /* Dividers & Nav */
-  --hr-color: #30070d;
+  --divider-color: #5c0f1b;
+  --divider-color-hover: #ff003c;
+  --hr-color: #5c0f1b;
   --nav-item-color: #a0a0a0;
   --nav-item-color-hover: #ffffff;
   --nav-item-color-active: #ff003c;
   --nav-item-background-hover: rgba(255, 0, 60, 0.06);
   --nav-item-background-active: rgba(255, 0, 60, 0.12);
-  --nav-indentation-guide-color: #30070d;
+  --nav-indentation-guide-color: #400a12;
 
   /* Tabs */
   --titlebar-background: #000000;
@@ -576,7 +597,7 @@ body.scheme-arasaka {
   --table-header-background: #12090b;
   --table-header-background-hover: #1c0e11;
   --table-row-background-hover: rgba(255, 0, 60, 0.04);
-  --table-border-color: #30070d;
+  --table-border-color: #5c0f1b;
 
   /* Checkbox & Modal */
   --checkbox-color: #ff003c;
@@ -594,16 +615,16 @@ body.scheme-matrix {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #0a2e14;
-  --background-modifier-border-hover: #124d22;
+  --background-modifier-border: #145926;
+  --background-modifier-border-hover: #33ff66;
   --background-modifier-border-focus: #33ff66;
   --background-modifier-form-field: #060d08;
   --background-modifier-form-field-highlighted: #0e1c12;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.95);
   --background-modifier-success: #0d2e16;
-  --background-modifier-error: #2e0d14;
-  --background-modifier-error-rgb: 46, 13, 20;
-  --background-modifier-error-hover: #40121c;
+  --background-modifier-error: #3a101a;
+  --background-modifier-error-rgb: 58, 16, 26;
+  --background-modifier-error-hover: #4d1522;
   --background-modifier-cover: rgba(0, 0, 0, 0.88);
 
   /* Matrix green text palette */
@@ -662,7 +683,7 @@ body.scheme-matrix {
   /* Code */
   --code-normal: #80ffaa;
   --code-background: #09140c;
-  --code-border: #0f3819;
+  --code-border: #145926;
   --code-comment: #1f6e35;
   --code-function: #33ff66;
   --code-keyword: #a3e635;
@@ -677,13 +698,15 @@ body.scheme-matrix {
   --scrollbar-active-thumb-bg: rgba(51, 255, 102, 0.35);
 
   /* Dividers & Nav */
-  --hr-color: #0a2e14;
+  --divider-color: #145926;
+  --divider-color-hover: #33ff66;
+  --hr-color: #145926;
   --nav-item-color: #20b845;
   --nav-item-color-hover: #80ffaa;
   --nav-item-color-active: #33ff66;
   --nav-item-background-hover: rgba(51, 255, 102, 0.06);
   --nav-item-background-active: rgba(51, 255, 102, 0.12);
-  --nav-indentation-guide-color: #0a2e14;
+  --nav-indentation-guide-color: #0e3d1a;
 
   /* Tabs */
   --titlebar-background: #000000;
@@ -698,7 +721,7 @@ body.scheme-matrix {
   --table-header-background: #0a170d;
   --table-header-background-hover: #112616;
   --table-row-background-hover: rgba(51, 255, 102, 0.04);
-  --table-border-color: #0a2e14;
+  --table-border-color: #145926;
 
   /* Checkbox & Modal */
   --checkbox-color: #33ff66;
@@ -716,16 +739,16 @@ body.scheme-cobalt {
   --background-primary-alt: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
-  --background-modifier-border: #0b253d;
-  --background-modifier-border-hover: #133c61;
+  --background-modifier-border: #144975;
+  --background-modifier-border-hover: #38bdf8;
   --background-modifier-border-focus: #38bdf8;
   --background-modifier-form-field: #060b12;
   --background-modifier-form-field-highlighted: #0e1724;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.95);
   --background-modifier-success: #0b2e21;
-  --background-modifier-error: #2e0b16;
-  --background-modifier-error-rgb: 46, 11, 22;
-  --background-modifier-error-hover: #401020;
+  --background-modifier-error: #3a0e1c;
+  --background-modifier-error-rgb: 58, 14, 28;
+  --background-modifier-error-hover: #4d1426;
   --background-modifier-cover: rgba(0, 0, 0, 0.88);
 
   /* Cobalt blue text palette */
@@ -784,7 +807,7 @@ body.scheme-cobalt {
   /* Code */
   --code-normal: #bae6fd;
   --code-background: #0a121c;
-  --code-border: #0e304f;
+  --code-border: #144975;
   --code-comment: #1e4976;
   --code-function: #38bdf8;
   --code-keyword: #67e8f9;
@@ -799,13 +822,15 @@ body.scheme-cobalt {
   --scrollbar-active-thumb-bg: rgba(56, 189, 248, 0.35);
 
   /* Dividers & Nav */
-  --hr-color: #0b253d;
+  --divider-color: #144975;
+  --divider-color-hover: #38bdf8;
+  --hr-color: #144975;
   --nav-item-color: #0284c7;
   --nav-item-color-hover: #7dd3fc;
   --nav-item-color-active: #38bdf8;
   --nav-item-background-hover: rgba(56, 189, 248, 0.06);
   --nav-item-background-active: rgba(56, 189, 248, 0.12);
-  --nav-indentation-guide-color: #0b253d;
+  --nav-indentation-guide-color: #0e3352;
 
   /* Tabs */
   --titlebar-background: #000000;
@@ -820,7 +845,7 @@ body.scheme-cobalt {
   --table-header-background: #0a1524;
   --table-header-background-hover: #10233b;
   --table-row-background-hover: rgba(56, 189, 248, 0.04);
-  --table-border-color: #0b253d;
+  --table-border-color: #144975;
 
   /* Checkbox & Modal */
   --checkbox-color: #38bdf8;
@@ -979,13 +1004,11 @@ span.cm-inline-code,
 .markdown-reading-view,
 .markdown-source-view {
   background-color: #000000 !important;
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 0, 0, 0.25) 2px,
-    rgba(0, 0, 0, 0.25) 4px
-  );
+  background-image: repeating-linear-gradient(0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.25) 2px,
+      rgba(0, 0, 0, 0.25) 4px);
   background-attachment: local;
 }
 
@@ -1252,10 +1275,12 @@ hr,
 }
 
 @keyframes terminal-blink {
+
   0%,
   49% {
     opacity: 0.8;
   }
+
   50%,
   100% {
     opacity: 0;
@@ -1333,6 +1358,61 @@ button:not(.clickable-icon):hover {
   color: var(--text-normal) !important;
 }
 
+/* ── Tooltip, Popover & Dropdown Pointer Arrows ── */
+.tooltip-arrow,
+.popover-arrow,
+[data-popper-arrow],
+[data-popper-arrow]::before,
+.popover::before,
+.popover::after,
+.tooltip::before,
+.tooltip::after {
+  background-color: var(--prompt-border-color, var(--text-accent)) !important;
+  border-color: var(--prompt-border-color, var(--text-accent)) !important;
+  border-top-color: var(--prompt-border-color, var(--text-accent)) !important;
+  border-bottom-color: var(--prompt-border-color, var(--text-accent)) !important;
+  border-left-color: var(--prompt-border-color, var(--text-accent)) !important;
+  border-right-color: var(--prompt-border-color, var(--text-accent)) !important;
+}
+
+/* ── Loading Spinners & Progress Indicators ── */
+.loading-spinner,
+.spinner,
+svg.spinner,
+.sync-status-icon.is-syncing {
+  color: var(--text-accent) !important;
+  border-color: var(--text-accent) !important;
+  border-top-color: transparent !important;
+}
+
+.loading-spinner circle,
+.spinner circle,
+svg.spinner circle,
+svg.spinner path {
+  stroke: var(--text-accent) !important;
+  color: var(--text-accent) !important;
+}
+
+progress,
+.progress-bar {
+  background-color: #111111 !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 0 !important;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #111111 !important;
+  border-radius: 0 !important;
+}
+
+progress::-webkit-progress-value,
+.progress-bar-indicator,
+.progress-bar-value {
+  background-color: var(--text-accent) !important;
+  box-shadow: 0 0 8px var(--text-accent) !important;
+  border-radius: 0 !important;
+}
+
 /* ── Bold: slight glow ── */
 strong,
 .cm-strong {
@@ -1346,17 +1426,135 @@ strong,
   text-shadow: 0 0 2px var(--text-selection);
 }
 
-/* ── Status bar ── */
+/* ============================================
+   TERMINAL WORKSPACE WIREFRAME & DIVIDERS
+   ============================================ */
+
+/* ── Main Application Window Outer Frame (When Not Maximized) ── */
+body:not(.is-maximized) {
+  border: 1px solid var(--background-modifier-border) !important;
+  box-shadow: 0 0 0 1px #000000, 0 8px 32px rgba(0, 0, 0, 0.85), 0 0 16px var(--text-selection) !important;
+}
+
+body.is-maximized {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ── Ribbon: Left & Right Dock Bar ── */
+.workspace-ribbon.mod-left {
+  background: #000000 !important;
+  border-right: 1px solid var(--background-modifier-border) !important;
+  border-left: none !important;
+}
+
+.workspace-ribbon.mod-right {
+  background: #000000 !important;
+  border-left: 1px solid var(--background-modifier-border) !important;
+  border-right: none !important;
+}
+
+/* ── Sidebars (Left Split & Right Split) ── */
+.workspace-split.mod-left-split,
+.workspace-sidedock-left {
+  border-right: 1px solid var(--background-modifier-border) !important;
+}
+
+.workspace-split.mod-left-split.is-collapsed,
+.workspace-sidedock-left.is-collapsed {
+  border-right: none !important;
+}
+
+.workspace-split.mod-right-split,
+.workspace-sidedock-right {
+  border-left: 1px solid var(--background-modifier-border) !important;
+}
+
+.workspace-split.mod-right-split.is-collapsed,
+.workspace-sidedock-right.is-collapsed {
+  border-left: none !important;
+}
+
+/* ── Resize Handles & Pane Splitters ── */
+.workspace-leaf-resize-handle {
+  background-color: var(--background-modifier-border) !important;
+  opacity: 1 !important;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.sidebar-toggle-button.mod-left {
+  border-right: 1px solid var(--background-modifier-border);
+}
+
+.clickable-icon.side-dock-ribbon-action {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  display: block !important;
+}
+
+.workspace-leaf-resize-handle:hover,
+.workspace-leaf-resize-handle:active {
+  background-color: var(--divider-color-hover, var(--text-accent)) !important;
+  box-shadow: 0 0 6px var(--text-selection) !important;
+}
+
+/* ── Tab Headers & Container Dividers ── */
+.workspace-tab-header-container {
+  background-color: #000000 !important;
+}
+
+.workspace-tab-header {
+  border: 1px solid transparent !important;
+  background-color: transparent !important;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+  border-bottom: none !important;
+}
+
+.workspace-tab-header:hover {
+  border-color: var(--background-modifier-border-hover) !important;
+  color: var(--text-normal) !important;
+  border-bottom: none !important;
+}
+
+.workspace-tab-header.is-active {
+  border: 1px solid var(--background-modifier-border) !important;
+  background-color: #000000 !important;
+  color: var(--text-normal) !important;
+  margin-bottom: -1px;
+  border-bottom: none !important;
+}
+
+/* ── Sidebar Headers & Footers ── */
+.workspace-sidedock-left .workspace-tab-header-container,
+.workspace-sidedock-right .workspace-tab-header-container {
+  border-bottom: 1px solid var(--background-modifier-border) !important;
+}
+
+.nav-header {
+  border-bottom: 1px solid var(--background-modifier-border) !important;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+/* ── Status Bar ── */
 .status-bar {
   background: #000000 !important;
-  border-top: 1px solid var(--background-modifier-border);
+  border-top: 1px solid var(--background-modifier-border) !important;
   color: var(--text-muted);
 }
 
-/* ── Ribbon ── */
-.workspace-ribbon {
-  background: #000000 !important;
+/* ── Multi-Pane Splits Inside Main Workspace ── */
+.workspace-split.mod-root .workspace-split.mod-vertical>.workspace-leaf:not(:last-child),
+.workspace-split.mod-root .workspace-split.mod-vertical>.workspace-tabs:not(:last-child) {
   border-right: 1px solid var(--background-modifier-border);
+}
+
+.workspace-split.mod-root .workspace-split.mod-horizontal>.workspace-leaf:not(:last-child),
+.workspace-split.mod-root .workspace-split.mod-horizontal>.workspace-tabs:not(:last-child) {
+  border-bottom: 1px solid var(--background-modifier-border);
 }
 
 /* ── Checkbox: square ── */
