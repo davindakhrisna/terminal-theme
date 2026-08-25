@@ -1,9 +1,8 @@
 <div align="center">
   <img src=".github/ascii-art-text.png" alt="Monolith Terminal Logo" width="250" />
-  <h1>Monolith Terminal</h1>
 </div>
 
-> A pure OLED black, monospaced terminal aesthetic theme for [Obsidian](https://obsidian.md).
+An aesthetically made terminal theme for [Obsidian](https://obsidian.md). Designed to make you feel the vibes of hackers and programmers alike, getting you drowned in their productivity and unparalleled focus.
 
 ![Monolith Terminal - ARASAKA](.github/Arasaka.png)
 
