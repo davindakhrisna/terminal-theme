@@ -1,4 +1,7 @@
-# Monolith Terminal
+<div align="center">
+  <img src=".github/ascii-art-text.png" alt="Monolith Terminal Logo" width="250" />
+  <h1>Monolith Terminal</h1>
+</div>
 
 > A pure OLED black, monospaced terminal aesthetic theme for [Obsidian](https://obsidian.md).
 
