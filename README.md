@@ -1,10 +1,19 @@
 <div align="center">
-  <img src=".github/ascii-art-text.png" alt="Monolith Terminal Logo" width="250" />
+  <img src=".github/ascii-art-text.png" alt="Monolith Terminal Logo" width="450" />
+
+  <p>
+    An aesthetically crafted terminal theme for <a href="https://obsidian.md">Obsidian</a>.<br />
+    Designed to channel the energy of hackers and cyberpunk interfaces—locking you into deep focus and uninterrupted productivity.
+  </p>
+
+  <br />
+
+  <p>
+    <img src=".github/Arasaka.png" alt="Monolith Terminal - ARASAKA" width="48%" />
+    &nbsp;
+    <img src=".github/OLED2.png" alt="Monolith Terminal - OLED" width="48%" />
+  </p>
 </div>
-
-An aesthetically made terminal theme for [Obsidian](https://obsidian.md). Designed to make you feel the vibes of hackers and programmers alike, getting you drowned in their productivity and unparalleled focus.
-
-![Monolith Terminal - ARASAKA](.github/Arasaka.png)
 
 ---
 
