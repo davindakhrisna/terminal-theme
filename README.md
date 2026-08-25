@@ -2,7 +2,7 @@
 
 > A pure OLED black, monospaced terminal aesthetic theme for [Obsidian](https://obsidian.md).
 
-![Monolith Terminal - ARASAKA](.github/ARASAKA.png)
+![Monolith Terminal - ARASAKA](.github/Arasaka.png)
 
 ---
 
